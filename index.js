@@ -12,12 +12,11 @@ $(".toggle").on("click", function() {
     }
 });
 });
-var menu = document.querySelector('.menu');
-var menuBtn = document.querySelector('.menu button');
-menuBtn.addEventListener('click', () => {
-    menu.classList.toggle('opened')
-})
-       
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
  // ------------------ navbar end ---------------
 
  // ------------------ event  start ---------------
